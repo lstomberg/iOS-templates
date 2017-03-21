@@ -1,6 +1,6 @@
 #!/bin/bash
 
-mkdir ~/Library/Developer/Xcode/Templates &>nul
+mkdir ~/Library/Developer/Xcode/Templates &>/dev/null
 cp -r ViewController.xctemplate ~/Library/Developer/Xcode/Templates/
 
 echo 
