@@ -2,26 +2,10 @@
 <!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
 <plist version="1.0">
 <dict>
-	<key>Nodes</key>
-	<array>
-		<string>___VARIABLE_prefix______VARIABLE_productName___View.h</string>
-	</array>
-	<key>Definitions</key>
-	<dict>
-		<key>___VARIABLE_prefix______VARIABLE_productName___View.h</key>
-		<dict>
-			<key>Group</key>
-			<array>
-				<string>___VARIABLE_productName___</string>
-			</array>
-			<key>Path</key>
-			<array>
-				<string>___VARIABLE_prefix______VARIABLE_productName___View.h</string>
-			</array>
-		</dict>
-	</dict>
 	<key>Kind</key>
 	<string>Xcode.IDEFoundation.TextSubstitutionFileTemplateKind</string>
+	<key>DefaultCompletionName</key>
+	<string>ViewController</string>
 	<key>Description</key>
 	<string>A Cocoa Touch view controller.</string>
 	<key>Summary</key>
@@ -40,7 +24,7 @@
 			<key>Required</key>
 			<true/>
 			<key>Name</key>
-			<string>Prefix (3 letter):</string>
+			<string>Module Prefix (3+ letter, CAPS):</string>
 			<key>Description</key>
 			<string>The prefix for the class to create</string>
 			<key>Type</key>
@@ -54,86 +38,13 @@
 			<key>Required</key>
 			<true/>
 			<key>Name</key>
-			<string>Name (capitalize first):</string>
+			<string>Controller Name (capitalize first letter):</string>
 			<key>Description</key>
 			<string>The name of the class to create</string>
 			<key>Type</key>
 			<string>text</string>
 			<key>NotPersisted</key>
 			<true/>
-		</dict>
-		<dict>
-			<key>Identifier</key>
-			<string>productNameLower</string>
-			<key>Required</key>
-			<true/>
-			<key>Name</key>
-			<string>Name (lowercase first):</string>
-			<key>Description</key>
-			<string>The name of the class to create with a lowercase first letter</string>
-			<key>Type</key>
-			<string>text</string>
-			<key>NotPersisted</key>
-			<true/>
-			<key>RequiredOptions</key>
-			<dict>
-				<key>Server</key>
-				<true/>
-			</dict>
-		</dict>
-		<dict>
-			<key>Identifier</key>
-			<string>subclass</string>
-			<key>Name</key>
-			<string>Subclass:</string>
-			<key>Description</key>
-			<string>Whether to subclass a table view controller</string>
-			<key>Type</key>
-			<string>popup</string>
-			<key>Default</key>
-			<string>UIViewController</string>
-			<key>NotPersisted</key>
-			<true/>
-			<key>Values</key>
-			<array>
-				<string>UIViewController</string>
-				<string>UITableViewController</string>
-			</array>
-		</dict>
-		<dict>
-			<key>Identifier</key>
-			<string>Server</string>
-			<key>Name</key>
-			<string>Does server communication</string>
-			<key>Description</key>
-			<string>Will this controller be responsible for server communication</string>
-			<key>Type</key>
-			<string>checkbox</string>
-			<key>Default</key>
-			<string>true</string>
-			<key>NotPersisted</key>
-			<true/>
-		</dict>
-		<dict>
-			<key>Identifier</key>
-			<string>WithTable</string>
-			<key>Name</key>
-			<string>Add UITableViewController child</string>
-			<key>Description</key>
-			<string>Whether the view will contain a UITableViewController child</string>
-			<key>Type</key>
-			<string>checkbox</string>
-			<key>Default</key>
-			<string>true</string>
-			<key>NotPersisted</key>
-			<true/>
-			<key>RequiredOptions</key>
-			<dict>
-				<key>subclass</key>
-				<array>
-					<string>UIViewController</string>
-				</array>
-			</dict>
 		</dict>
 	</array>
 </dict>

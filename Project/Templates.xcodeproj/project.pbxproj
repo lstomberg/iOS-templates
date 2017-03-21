@@ -10,7 +10,6 @@
 		4975C37D1E8059280035670E /* HaikuCategories.m in Sources */ = {isa = PBXBuildFile; fileRef = 4975C37C1E8059280035670E /* HaikuCategories.m */; };
 		4979F33C1E209B940072BE5F /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 4979F33B1E209B940072BE5F /* main.m */; };
 		4979F33F1E209B940072BE5F /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 4979F33E1E209B940072BE5F /* AppDelegate.m */; };
-		4979F3421E209B940072BE5F /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4979F3411E209B940072BE5F /* ViewController.m */; };
 		4979F3451E209B940072BE5F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4979F3431E209B940072BE5F /* Main.storyboard */; };
 		4979F3471E209B940072BE5F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4979F3461E209B940072BE5F /* Assets.xcassets */; };
 		4979F34A1E209B940072BE5F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4979F3481E209B940072BE5F /* LaunchScreen.storyboard */; };
@@ -30,8 +29,6 @@
 		4979F33B1E209B940072BE5F /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		4979F33D1E209B940072BE5F /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		4979F33E1E209B940072BE5F /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		4979F3401E209B940072BE5F /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		4979F3411E209B940072BE5F /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		4979F3441E209B940072BE5F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		4979F3461E209B940072BE5F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		4979F3491E209B940072BE5F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -105,8 +102,6 @@
 			children = (
 				4979F33D1E209B940072BE5F /* AppDelegate.h */,
 				4979F33E1E209B940072BE5F /* AppDelegate.m */,
-				4979F3401E209B940072BE5F /* ViewController.h */,
-				4979F3411E209B940072BE5F /* ViewController.m */,
 				4979F3431E209B940072BE5F /* Main.storyboard */,
 				4979F3461E209B940072BE5F /* Assets.xcassets */,
 				4979F3481E209B940072BE5F /* LaunchScreen.storyboard */,
@@ -255,7 +250,6 @@
 			files = (
 				49B664BC1E4E89DF0057E639 /* TIESummaryTableView+ModelManagement.m in Sources */,
 				4979F3621E20A0450072BE5F /* TIESummaryView.m in Sources */,
-				4979F3421E209B940072BE5F /* ViewController.m in Sources */,
 				4979F33F1E209B940072BE5F /* AppDelegate.m in Sources */,
 				4979F3731E20AD390072BE5F /* TIESummaryTableViewCell.m in Sources */,
 				4979F33C1E209B940072BE5F /* main.m in Sources */,

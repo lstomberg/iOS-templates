@@ -3,10 +3,10 @@
 //  Copyright © 2017 Epic. All rights reserved.
 //
 
-#import "TIESummaryTableViewCell.h"
-#import "HaikuCategories.h"
+#import "___VARIABLE_prefix______VARIABLE_productName___TableViewCell.h"
 
-@implementation TIESummaryTableViewCell
+
+@implementation ___VARIABLE_prefix______VARIABLE_productName___TableViewCell
 
 -(instancetype)initWithStyle:(UITableViewCellStyle)style reuseIdentifier:(NSString *)reuseIdentifier {
     self = [super initWithStyle:style reuseIdentifier:reuseIdentifier];
